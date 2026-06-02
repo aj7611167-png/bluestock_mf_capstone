@@ -1,0 +1,62 @@
+DAY 1 DATA QUALITY REPORT
+
+Datasets Loaded Successfully: 10
+
+Key Findings
+
+01_fund_master.csv
+- 40 records
+- No missing values
+- No duplicate records
+
+02_nav_history.csv
+- 46,000 records
+- No missing values
+- No duplicate records
+
+03_aum_by_fund_house.csv
+- 90 records
+- No missing values
+
+04_monthly_sip_inflows.csv
+- 48 records
+- 12 missing values in yoy_growth_pct
+- Expected because YoY growth cannot be calculated for the first 12 months
+
+05_category_inflows.csv
+- No missing values
+- No duplicates
+
+06_industry_folio_count.csv
+- No missing values
+- No duplicates
+
+07_scheme_performance.csv
+- No missing values
+- No duplicates
+
+08_investor_transactions.csv
+- 32,778 records
+- No missing values
+- No duplicates
+
+09_portfolio_holdings.csv
+- No missing values
+- No duplicates
+
+10_benchmark_indices.csv
+- 8,050 records
+- No missing values
+- No duplicates
+
+Live NAV Fetch Status
+- HDFC Top 100: Success
+- SBI Bluechip: Success
+- ICICI Bluechip: Success
+- Nippon Large Cap: Success
+- Axis Bluechip: Success
+- Kotak Bluechip: Success
+
+Conclusion
+Data ingestion completed successfully.
+All datasets are ready for cleaning and further analysis.
